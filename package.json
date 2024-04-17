@@ -9,18 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.15",
-    "@types/jsonwebtoken": "^9.0.2",
+    "@headlessui/react": "^1.7.19",
+    "@types/jsonwebtoken": "^9.0.6",
     "@types/node": "20.3.1",
     "@types/react": "18.2.13",
     "@types/react-dom": "18.2.6",
     "autoprefixer": "10.4.14",
     "axios": "^1.4.0",
-    "cloudinary": "^1.37.1",
+    "cloudinary": "^1.41.3",
     "graphql-request": "^6.1.0",
-    "jsonwebtoken": "^9.0.0",
+    "jsonwebtoken": "^9.0.2",
     "next": "13.4.6",
-    "next-auth": "^4.22.1",
+    "next-auth": "^4.24.7",
     "postcss": "8.4.24",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -31,5 +31,12 @@
   "devDependencies": {
     "@grafbase/sdk": "^0.0.25",
     "find-unused-exports": "^5.0.0"
-  }
+  },
+  "description": "<div align=\"center\">   <br />     <a href=\"https://youtu.be/986hztrfaSQ?feature=shared\" target=\"_blank\">       <img src=\"https://github.com/adrianhajdin/project_nextjs13_flexibble/assets/151519281/e4d6a34f-31a8-4370-a3df-d59e0463a18e\" alt=\"Project Banner\">     </a>   <br />",
+  "main": "next.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "author": "",
+  "license": "ISC"
 }
