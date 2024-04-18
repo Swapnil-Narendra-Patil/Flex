@@ -113,7 +113,7 @@ const ProjectForm = ({ type, session, project }: Props) => {
             <FormField
                 title="Title"
                 state={form.title}
-                placeholder="Skippy"
+                placeholder="Flexibble"
                 setState={(value) => handleStateChange('title', value)}
             />
 
@@ -129,7 +129,7 @@ const ProjectForm = ({ type, session, project }: Props) => {
                 type="url"
                 title="Website URL"
                 state={form.liveSiteUrl}
-                placeholder=" "
+                placeholder="https://jsmastery.pro"
                 setState={(value) => handleStateChange('liveSiteUrl', value)}
             />
 
@@ -137,7 +137,7 @@ const ProjectForm = ({ type, session, project }: Props) => {
                 type="url"
                 title="GitHub URL"
                 state={form.githubUrl}
-                placeholder=" "
+                placeholder="https://github.com/adrianhajdin"
                 setState={(value) => handleStateChange('githubUrl', value)}
             />
 
